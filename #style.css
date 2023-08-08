@@ -1,0 +1,32 @@
+ h1{
+    display:flex;
+    justify-content: center;
+    color: beige;
+
+ }
+ .one{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+ }
+ .two{
+    display: grid;
+    background-color: aqua(5, 150, 106);
+    height: 300px;
+    width: 1000px;
+    padding: 5px;
+    align-items: center;
+ }
+ body{
+    background-color: rgb(127, 219, 255) ;
+ }
+ p{
+    color: aliceblue (240,248,255);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    flex-direction: column;
+    border: 2px;
+    border-style: solid;
+    background-color: aliceblue (240, 248, 255);
+ }
